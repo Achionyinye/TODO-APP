@@ -1,0 +1,46 @@
+.parentContainer{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    background-color:  hsl(235, 24%, 19%);
+}
+#drag{
+    margin-top: 20%;
+    margin-left: 37%;
+    color: hsl(234, 11%, 52%);
+}
+#todoForm{
+    background-color: hsl(237, 14%, 26%);
+    margin-top: -25%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float:inherit;
+}
+#inputAdd{
+    display : grid;
+}
+#inputBox{
+    background-color: hsl(233, 14%, 35%);
+    padding: 5px;
+    width: 78%;
+    height: 100%;
+    text-align: center; 
+    border: none;
+}
+#addBtn{
+    background-color: hsl(233, 14%, 35%);
+    padding: 5px;
+    width: 19%;
+    color:aqua;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    border : none;
+}
+

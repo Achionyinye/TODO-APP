@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="index.css">
+</head>
+<body>
+    <div class = "parentContainer ">
+        <div><img src = "IMAGES/images/bg-desktop-dark.jpg" alt = "" width="100%" height="70%"></div>
+         <p id = "drag">Drag and drop to reorder list</p> 
+    </div>
+    <form id = "todoForm">
+        <div id = InputAdd>
+        <input id = "inputBox" type="text"/>
+        <button onclick="addNewElement()" id = "addBtn" type = "button">Add</button>
+
+    </div>
+        <ul id="todoList">
+          <li>Create a new Todo</li>
+          <li class = 'checked'>Create a new Todo</li>
+          <li>Create a new Todo</li>
+        </ul>
+    </form>
+
+    <script src = "./index.js"></script>
+</body>
+</html>
